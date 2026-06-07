@@ -1,0 +1,42 @@
+# Build artifacts
+build/
+bin/
+
+# Object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+*.lib
+
+# Shared libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+
+# Debug symbols / profiling
+*.dSYM/
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+
+# CMake artifacts, in case you add CMake later
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
